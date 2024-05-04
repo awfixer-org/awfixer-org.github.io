@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>AWFixer Organization</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Helvetica', 'Arial', sans-serif;
+    }
+
+    .bg-turquoise {
+      background-color: #4ECDC4;
+    }
+
+    .text-turquoise {
+      color: #4ECDC4;
+    }
+
+    .font-bold {
+      font-weight: bold;
+    }
+
+    .font-large {
+      font-size: 1.5rem;
+    }
+
+    .navbar {
+      background-color: #4ECDC4;
+      padding: 1rem;
+    }
+
+    .navbar-logo {
+      width: 100px;
+    }
+
+    .navbar-links {
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+    }
+
+    .navbar-link {
+      color: white;
+      text-decoration: none;
+    }
+
+    .hamburger-menu {
+      display: none;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .hamburger-line {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+    }
+
+    @media (max-width: 768px) {
+      .navbar-links {
+        display: none;
+      }
+
+      .hamburger-menu {
+        display: flex;
+      }
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 0;
+    }
+
+    .hero-logo {
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    .hero-heading {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .hero-subheading {
+      font-size: 1.5rem;
+    }
+
+    .slideshow {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .slideshow-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .about {
+      padding: 5rem 0;
+    }
+
+    .about-heading {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .about-text {
+      text-align: center;
+    }
+
+    .footer {
+      background-color: #4ECDC4;
+      padding: 1rem;
+    }
+
+    .footer-logo {
+      width: 100px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+    }
+
+    .footer-link {
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer-credits {
+      color: white;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="https://github.com/awfixer.png" alt="Logo" class="navbar-logo"/>
+    </div>
+    <div class="navbar-links">
+      <a href="https://awfixer-org.github.io/" class="navbar-link">Home</a>
+      <a href="https://awfixer-org.github.io/about.html" class="navbar-link">About</a>
+      <a href="https://t.me/awfixerofficial" class="navbar-link">Telegram</a>
+      <a href="https://discord.gg/awfixer" class="navbar-link">Discord</a>
+    </div>
+    <div class="hamburger-menu">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+    </div>
+  </nav>
+  <div class="hero">
+    <div class="hero-logo">
+      <img src="https://www.ancodeai.com/placeholder.svg" alt="Logo" class="hero-logo"/>
+    </div>
+    <h1 class="hero-heading font-bold font-large">Welcome to Our Website</h1>
+    <p class="hero-subheading">We are a leading provider of high-quality products and services.</p>
+  </div>
+  <div class="slideshow">
+    <div class="slideshow-image">
+      <img src="https://github.com/wolfdaemon.png" alt="Image 1" class="slideshow-image"/>
+    </div>
+    <div class="slideshow-image">
+      <img src="https://github.com/awfixer.png" alt="Image 2" class="slideshow-image"/>
+    </div>
+    <div class="slideshow-image">
+      <img src="https://github.com/aodrael.png" alt="Image 3" class="slideshow-image"/>
+    </div>
+  </div>
+  <div class="about">
+    <h2 class="about-heading font-bold">About Us</h2>
+    <p class="about-text">Hey there! We are the AWFixer Organization, the ones you call when you don't know who else to call. We have an answer to basically every question, and a solution to bascially every problem. Don't believe us, join our Discord or Telegram and find out!</p>
+  </div>
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="https://github.com/awfixer.png" alt="Logo" class="footer-logo"/>
+    </div>
+    <div class="footer-links">
+      <a href="https://awfixer-org.github.io/" class="footer-link">Home</a>
+      <a href="https://awfixer-org.github.io/about.html" class="footer-link">About</a>
+      <a href="https://discord.gg/awfixer" class="footer-link">Discord</a>
+      <a href="https://t.me/awfixerofficial" class="footer-link">Telegram</a>
+    </div>
+    <div class="footer-credits">
+      Copyright &copy; 2023 All Rights Reserved
+    </div>
+  </footer>
+    </body>
+
+</html>
