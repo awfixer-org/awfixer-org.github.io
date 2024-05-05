@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Discord Moderation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .bg-gradient-to-r {
+      background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);
+    }
+
+    .bg-gradient-to-l {
+      background: linear-gradient(270deg, #FF8008 0%, #FFC837 100%);
+    }
+
+    .btn-gradient {
+      background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-gradient:hover {
+      background: linear-gradient(90deg, #FFC837 0%, #FF8008 100%);
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .footer {
+      background-color: #f8f8f8;
+      padding: 32px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-nav {
+      display: flex;
+      gap: 24px;
+    }
+
+    .footer-nav a {
+      color: #666;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .footer-nav a:hover {
+      color: #FF8008;
+    }
+
+    .footer-copyright {
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bg-gradient-to-r py-4 px-8">
+    <div class="container flex items-center justify-between">
+      <div class="logo">
+        <img src="https://www.ancodeai.com/placeholder.svg" alt="Discord logo" width="50" height="50" />
+      </div>
+      <nav>
+        <ul class="flex items-center gap-8">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container py-16">
+    <div class="grid grid-cols-1 gap-16">
+      <div class="card">
+        <h1 class="text-3xl font-bold mb-8">Do you want to learn how to effectively moderate a discord server?</h1>
+        <p class="text-lg mb-8">Well we have a place where you can learn for free, we will teach you how to use the various bots, and how to interact in the server so that you are not viewed as 'that mod'</p>
+        <a href="https://discord.gg/KCDHuwXUk8" class="btn-gradient" target="_blank">Join our Discord Server</a>
+      </div>
+      <div class="grid grid-cols-3 gap-8">
+        <div class="card">
+          <img src="https://github.com/wolfdaemon.png" alt="Discord logo" width="100" height="100" />
+        </div>
+        <div class="card">
+          <img src="https://github.com/awfixer.png" alt="Discord logo" width="100" height="100" />
+        </div>
+        <div class="card">
+          <img src="https://github.com/aodrael.png" alt="Discord logo" width="100" height="100" />
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-nav">
+        <a href="https://awfixer-org.github.io/">Home</a>
+        <a href="https://awfixer-org.github.io/about.html">About</a>
+        <a href="https://awfixer-org.github.io/contact.html">Contact</a>
+        <a href="https://t.me/awfixerofficial">AWFixer Telegram</a>
+      </div>
+      <div class="footer-copyright">
+        Copyright &copy; 2024 AWFixer Organization. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
